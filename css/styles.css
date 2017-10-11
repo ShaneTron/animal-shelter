@@ -34,3 +34,7 @@ p {
   width: 300px;
   font-family: cursive;
 }
+
+strong {
+  color: purple;
+}
