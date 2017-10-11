@@ -1,0 +1,36 @@
+body {
+  font-family: fantasy;
+  background-color: yellow;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: cursive;
+  background-color: blue;
+}
+
+ul {
+  font-style: italic;
+}
+
+p {
+  color: red;
+}
+
+.cascade p {
+  color: blue;
+}
+
+.cascade li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.test {
+  float: left;
+  width: 300px;
+  font-family: cursive;
+}
