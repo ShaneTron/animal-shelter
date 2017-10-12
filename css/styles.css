@@ -1,40 +1,128 @@
-body {
-  font-family: fantasy;
-  background-color: yellow;
+@media screen and (min-width: 1550px) {
+    body {
+    font-family: fantasy;
+    background-color: yellow;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+  h2 {
+    font-family: cursive;
+    background-color: blue;
+  }
+
+  ul {
+    font-style: italic;
+  }
+
+  p {
+    color: red;
+  }
+
+  .cascade p {
+    color: blue;
+  }
+
+  .cascade li {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .test {
+    float: left;
+    width: 300px;
+    font-family: cursive;
+  }
+
+  strong {
+    color: purple;
+  }
 }
 
-h1 {
-  font-weight: bold;
+@media screen and (max-width: 1550px) and (min-width: 750px) {
+  body {
+    font-family: fantasy;
+    background-color: yellow;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+  h2 {
+    font-family: cursive;
+    background-color: blue;
+  }
+
+  ul {
+    font-style: italic;
+  }
+
+  p {
+    color: red;
+  }
+
+  .cascade p {
+    color: blue;
+  }
+
+  .cascade li {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .test {
+    float: left;
+    width: 200px;
+    font-family: cursive;
+  }
+
+  strong {
+    color: purple;
+  }
 }
 
-h2 {
-  font-family: cursive;
-  background-color: blue;
-}
+@media screen and (max-width: 750px) {
+  body {
+    font-family: fantasy;
+    background-color: yellow;
+  }
 
-ul {
-  font-style: italic;
-}
+  h1 {
+    font-weight: bold;
+  }
 
-p {
-  color: red;
-}
+  h2 {
+    font-family: cursive;
+    background-color: blue;
+  }
 
-.cascade p {
-  color: blue;
-}
+  ul {
+    font-style: italic;
+  }
 
-.cascade li {
-  font-size: 20px;
-  font-weight: bold;
-}
+  p {
+    color: red;
+  }
 
-.test {
-  float: left;
-  width: 300px;
-  font-family: cursive;
-}
+  .cascade p {
+    color: blue;
+  }
 
-strong {
-  color: purple;
+  .cascade li {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .test {
+    float: left;
+    width: 120px;
+    font-family: cursive;
+  }
+
+  strong {
+    color: purple;
+  }
 }
